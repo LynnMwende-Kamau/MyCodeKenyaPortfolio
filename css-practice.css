@@ -1,10 +1,10 @@
-body {
-  background-color: #f1faee; /* Soft background color */
+/* body {
+  background-color: #f1faee; 
   margin: 40px;
 }
 
 h1 {
-  color: #e63946; /* HEX code for a red shade */
+  color: #e63946; 
   font-family: Arial, sans-serif;
   text-align: center;
   border: 2px solid #457b9d;
@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-  color: green; /* Named color */
+  color: green; 
   font-size: 1.2em;
   background-color: #a8dadc;
   border-bottom: 1px dashed #1d3557;
@@ -194,12 +194,11 @@ span {
   }
 
   .transparent-bg {
-  background: rgba(70, 130, 180, 0.3); /* 0.3 = 30% visible */
+  background: rgba(70, 130, 180, 0.3); 
   padding: 16px;
   margin-top: 16px;
 }
 
-/* Base styles for mobile devices (default) */
 body {
   background-color: #ffe066;
 }
@@ -211,7 +210,7 @@ h1 {
   font-size: 1em;
 }
 
-/* Styles for screens 601px and wider (tablets, desktops) */
+
 @media (min-width: 601px) {
   body {
     background-color: #fff;
@@ -271,5 +270,74 @@ h1 {
 
 .grid-item:first-child {
   grid-column: 1 / 3;
+} */
+
+
+/* .hidden-text {
+  display: none;
+} */
+
+/* Class for making an image round and animating */
+/* .round {
+  border-radius: 50%; 
+  transition: all 0.2s; 
+} */
+
+/* Styles for animated transform and shadow */
+/* .round.animated {
+  transform: rotate(1turn) scale(2);
+  box-shadow: 0 0 10px black;
+} */
+
+/* Basic transition for all images for smoother effects */
+/* img {
+  transition: all 0.2s ease-in-out;
+} */
+
+/* Class for making an image round and animating */
+/* .round {
+  border-radius: 50%;
+  transition: all 0.2s; 
+} */
+
+/* Styles for animated transform and shadow */
+/* .round.animated {
+  transform: rotate(1turn) scale(2);
+  box-shadow: 0 0 10px black;
+} */
+
+/* Basic transition for all images for smoother effects */
+/* img {
+  transition: all 0.2s ease-in-out;
+} */
+
+/* Exercise 5: Player Card Styles */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light background for the cards container */
+  margin-bottom: 20px;
 }
+
+.playerCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.playerCard h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.playerCard p {
+  color: #666;
+  font-size: 0.9em;
+}
+
 
